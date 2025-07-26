@@ -4,8 +4,8 @@ Bu depo, **SimLogicTSA** algoritmasının resmi MATLAB kodlarını içermektedir
 
 > Ahmet Cevahir Cinar, Mustafa Servet Kiran,  
 > *Similarity and Logic Gate-Based Tree-Seed Algorithms for Binary Optimization*,  
-> Computers & Industrial Engineering, Cilt 115, 2018, Sayfa 1–15.  
-> DOI: https://doi.org/10.1016/j.cie.2017.10.027
+> Computers & Industrial Engineering, Cilt 115, 2018, Sayfa 631–646.  
+> DOI: [https://doi.org/10.1016/j.cie.2017.10.027](https://doi.org/10.1016/j.cie.2017.12.009)
 
 ## 🌱 Algoritma Özeti
 
@@ -14,15 +14,13 @@ SimLogicTSA algoritması:
 - **XOR**, **AND**, **OR** gibi mantık kapılarını kullanarak çözüm üretir
 - Keşif ve sömürü dengesi için farklı dönüşüm stratejileri uygular
 
-Literatürde yer alan 23 farklı ikili benchmark problemi üzerinde test edilmiştir.
+Literatürde yer alan ikili benchmark problemi üzerinde test edilmiştir.
 
 ## 📁 İçerik
 
-- `slgtsa_main.m`: SimLogicTSA algoritmasını çalıştıran ana dosya
-- `problems/`: İkili benchmark fonksiyonları
-- `operators/`: Mantık kapısı dönüşüm fonksiyonları
-- `similarity.m`: Hamming mesafesi hesaplama
-- `results/`: Performans sonuçları ve grafikler
+- `SimLogicTSAALL.m`: SimLogicTSA algoritmasını çalıştıran ana dosya
+- `text/`: İkili benchmark fonksiyonları
+- `sonuclar/`: Performans sonuçları ve grafikler
 
 ## 🛠 Gereksinimler
 
@@ -39,7 +37,7 @@ Bu kodu kullanmanız durumunda aşağıdaki yayına atıfta bulunun:
   author = {Cinar, Ahmet Cevahir and Kiran, Mustafa Servet},
   journal = {Computers & Industrial Engineering},
   volume = {115},
-  pages = {1--15},
+  pages = {631-646},
   year = {2018},
   doi = {10.1016/j.cie.2017.10.027},
   url = {https://www.sciencedirect.com/science/article/pii/S0360835217305752}
