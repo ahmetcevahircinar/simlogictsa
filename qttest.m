@@ -1,0 +1,14 @@
+Qmax=0.9;
+Qmin=0.5;
+maxFEs=80000;
+N=50;
+FEs=N;
+sayac=0;
+nsmin=ceil(N*0.1);
+nsmax=ceil(N*0.25);
+while(FEs<=maxFEs)
+    ns=round(nsmin+(nsmax-nsmin)*rand);    
+    Qt=Qmax-((Qmax-Qmin)/maxFEs)*FEs
+    sayac=sayac+1;
+    FEs=FEs+ns;  
+end

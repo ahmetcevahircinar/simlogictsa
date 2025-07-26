@@ -1,0 +1,9 @@
+Qt=0.6;
+X_i=[0 1 1 1 1 0 1 1 1 1 1 0 1 0 1 0];
+X_k=[0 1 1 1 1 0 1 1 0 1 0 0 1 1 1 0];
+% X_keski=[1 0 1 0 1 0 1 1 0 1]; 
+[m11 m10 m01 benzema]=jaccard(X_i,X_k);
+dissim=Qt*(1-benzema);
+[n1 n0]=ayir(X_i);
+[M11 M01 M10 z]=find_opt(n0,n1,dissim);
+v=olustur(X_i,M11,M10)
