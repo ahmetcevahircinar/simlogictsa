@@ -4,8 +4,8 @@ This repository contains the official MATLAB implementation of **SimLogicTSA**, 
 
 > Ahmet Cevahir Cinar, Mustafa Servet Kiran,  
 > *Similarity and Logic Gate-Based Tree-Seed Algorithms for Binary Optimization*,  
-> Computers & Industrial Engineering, Volume 115, 2018, Pages 1–15.  
-> DOI: https://doi.org/10.1016/j.cie.2017.10.027
+> Computers & Industrial Engineering, Volume 115, 2018, Pages 631–646.  
+> DOI: [https://doi.org/10.1016/j.cie.2017.10.027](https://doi.org/10.1016/j.cie.2017.12.009)
 
 ## 🌱 Algorithm Overview
 
@@ -14,15 +14,13 @@ SimLogicTSA introduces binary versions of the TSA by:
 - Integrating **XOR**, **AND**, and **OR** logic operators to update seed solutions
 - Applying different transformation strategies for diversification and intensification
 
-Tested on 23 benchmark binary optimization problems from the literature.
+Tested on benchmark binary optimization problems from the literature.
 
 ## 📁 Contents
 
-- `slgtsa_main.m`: Main script for running SimLogicTSA
-- `problems/`: Includes binary benchmark functions
-- `operators/`: Logic gate transformation methods
-- `similarity.m`: Hamming distance-based selection
-- `results/`: Performance summaries and plots
+- `SimLogicTSAAll.m`: Main script for running SimLogicTSA
+- `text/`: Includes binary benchmark functions
+- `sonuclar/`: Performance summaries and plots
 
 ## 🛠 Requirements
 
@@ -39,9 +37,9 @@ Please cite the following if you use this code:
   author = {Cinar, Ahmet Cevahir and Kiran, Mustafa Servet},
   journal = {Computers & Industrial Engineering},
   volume = {115},
-  pages = {1--15},
+  pages = {631-646},
   year = {2018},
-  doi = {10.1016/j.cie.2017.10.027},
+  doi = {10.1016/j.cie.2017.12.009},
   url = {https://www.sciencedirect.com/science/article/pii/S0360835217305752}
 }
 ```
